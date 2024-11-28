@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+env/
+venv/
+
+# Configuración del editor
+.idea/
+.vscode/
+*.swp
+
+# Archivos generados
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Archivos de migraciones
+**/migrations/*
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos estáticos
+/staticfiles/
+/media/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de despliegue
+*.zip
+*.tar.gz
+*.egg-info/
